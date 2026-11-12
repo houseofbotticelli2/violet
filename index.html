@@ -154,12 +154,12 @@ body::before{ content:""; position:fixed; inset:0 0 auto; height:env(safe-area-i
 .pagehead h1{ font-family:"Fraunces",Georgia,serif; font-style:italic; font-weight:600; font-variation-settings:"SOFT" 100,"WONK" 1; font-size:clamp(2.6rem,7vw,4.6rem); line-height:1; margin:4px 0 12px; letter-spacing:-.02em; }
 .pagehead p{ color:var(--muted); max-width:52ch; margin:0 auto; }
 /* stats */
-.stats{ display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; margin:44px auto 10px; }
+.stats{ display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:16px; margin:44px auto 10px; }
 .stat{ background:var(--surface); border:2px solid var(--ink); border-radius:22px; padding:22px 18px; box-shadow:4px 4px 0 var(--ink); }
 .stat:nth-child(1){ background:var(--pink); } .stat:nth-child(2){ background:var(--butter); } .stat:nth-child(3){ background:var(--mint); }
 .stat b{ display:block; font-family:"Fraunces",Georgia,serif; font-size:clamp(2rem,4vw,2.7rem); line-height:1; margin-bottom:8px; }
 .stat span{ font-weight:600; font-size:.95rem; }
-@media (max-width:800px){ .stats{ grid-template-columns:1fr; } }
+@media (max-width:800px){ .stats{ grid-template-columns:repeat(2,minmax(0,1fr)); } }
 .sectiontitle{ font-family:"Fraunces",Georgia,serif; font-weight:600; font-size:clamp(1.8rem,4vw,2.5rem); margin:64px 0 6px; text-align:center; }
 .sectionsub{ text-align:center; color:var(--muted); margin:0 0 26px; }
 /* featured tiles */
@@ -226,12 +226,13 @@ footer.site .links{ justify-content:center; margin-bottom:16px; }
       <div class="stat"><b>8M+</b><span>combined TikTok Shop views, including one video with 2.5M</span></div>
       <div class="stat"><b>1.8M</b><span>views on a single FAU Alumni post</span></div>
       <div class="stat"><b>#1</b><span>top-performing creator out of all FAU Alumni student creators</span></div>
+      <div class="stat"><b>2024</b><span>founded my handmade jewelry brand, Bottishelli</span></div>
     </div>
     <h2 class="sectiontitle">Featured work</h2>
     <p class="sectionsub">A peek at what I make. Tap one to see the full project.</p>
     <div class="feat">
       <a class="tile" href="#work" data-go="tt"><img loading="lazy" data-from="#tt" data-n="3" alt="TikTok Shop video still"><b>TikTok Shop</b><span>8M+ views</span></a>
-      <a class="tile" href="#work" data-go="photo"><img loading="lazy" data-from="#photo" data-n="4" alt="Commencement photo"><b>Photography</b><span>campus &amp; events</span></a>
+      <a class="tile" href="#work" data-go="botti"><img loading="lazy" data-from="#botti" alt="Bottishelli campaign photo"><b>Bottishelli</b><span>campaign shoots</span></a>
       <a class="tile" href="#work" data-go="fau"><img loading="lazy" data-from="#fau" data-n="6" alt="Toast to the Grads flyer"><b>FAU Alumni</b><span>event content</span></a>
       <a class="tile" href="#work" data-go="pw"><img loading="lazy" data-from="#pw" alt="Pet Wants gift guide post"><b>Pet Wants</b><span>Instagram posts</span></a>
     </div>
@@ -287,6 +288,17 @@ footer.site .links{ justify-content:center; margin-bottom:16px; }
         <p>Quick, follow-along routines and relatable gym-talk videos with clear on-screen text, built to be saved and shared. I plan the moves, film on location, and edit for short attention spans.</p>
       </div>
     </div>
+  </section>
+
+  <section class="project" aria-labelledby="botti">
+    <div class="head">
+      <h2 id="botti">Bottishelli Shell Shop<span class="role">Founder &amp; Digital Marketing Manager, 2024–present</span></h2>
+      <div>
+        <p>My handmade shell jewelry brand. I planned and art-directed these campaign shoots: the concept, styling, and locations. The charms are styled on designer bags against Spanish tile, a waterfront café, and Florida sunshine to show how the pieces dress up everyday looks.</p>
+        <ul class="links" style="margin-top:14px"><li><a href="https://www.instagram.com/bottishelli/" target="_blank" rel="noopener">@bottishelli</a></li></ul>
+      </div>
+    </div>
+    <div class="shoot"><button class="shot wide" type="button" data-cap="Shell charm on a straw bag with an Aperol spritz"><img src="images/img-18.jpg" alt="Shell charm chain styled on a straw Prada bag beside an Aperol spritz" loading="lazy"></button><button class="shot" type="button" data-cap="Rings and bag charm by the water"><img src="images/img-19.jpg" alt="Shell rings and charm bag at a café table overlooking the water" loading="lazy"></button><button class="shot" type="button" data-cap="Necklace, rings, and tote charm"><img src="images/img-20.jpg" alt="Shell necklace, rings, and bag charm on a straw Dior tote against Spanish tile" loading="lazy"></button><button class="shot" type="button" data-cap="Silver charm on a black crossbody"><img src="images/img-21.jpg" alt="Silver shell charm on a black quilted crossbody bag" loading="lazy"></button><button class="shot" type="button" data-cap="Shell-trimmed hat"><img src="images/img-22.jpg" alt="Model hiding behind a straw cowboy hat trimmed with shells" loading="lazy"></button><button class="shot" type="button" data-cap="Charm on a denim shoulder bag"><img src="images/img-23.jpg" alt="Gold shell charm on a denim shoulder bag with orange shell rings" loading="lazy"></button><button class="shot" type="button" data-cap="Layered necklaces, rings, and bag charm"><img src="images/img-24.jpg" alt="Layered shell necklaces and a shell charm on a straw shoulder bag with a pink lace top" loading="lazy"></button><button class="shot" type="button" data-cap="Tote charm on the tile bench"><img src="images/img-25.jpg" alt="Model in a straw cowboy hat with a shell-charmed Dior tote on a Spanish tile bench" loading="lazy"></button><button class="shot" type="button" data-cap="Charm close-up on weathered wood"><img src="images/img-26.jpg" alt="Close-up of a gold shell charm chain on a straw tote against weathered wood" loading="lazy"></button><button class="shot" type="button" data-cap="Charm on a black flap bag by the water"><img src="images/img-27.jpg" alt="Shell charm on a black quilted bag beside an Aperol spritz and sunglasses on the water" loading="lazy"></button></div>
   </section>
 
   <section class="project" aria-labelledby="fau">
@@ -358,11 +370,11 @@ footer.site .links{ justify-content:center; margin-bottom:16px; }
   <div class="pagehead"><p class="hand">nice to meet you</p><h1>About me</h1></div>
   <div class="wrap">
     <div class="card about">
-      <div class="collage"><img loading="lazy" data-from="#photo" data-n="4" alt="On stage at commencement"><img loading="lazy" data-from="#photo" data-n="1" alt="Graduates with their diplomas"><img loading="lazy" data-from="#tt" data-n="3" alt="Affordable sets TikTok video still"></div>
+      <div class="collage"><img loading="lazy" data-from="#botti" data-n="2" alt="Bottishelli shell charm on a tote"><img loading="lazy" data-from="#botti" data-n="5" alt="Shell-trimmed straw hat"><img loading="lazy" data-from="#tt" data-n="3" alt="Affordable sets TikTok video still"></div>
       <div class="bio">
         <p>I’m Violet, a social media marketer and content creator based in Boca Raton, Florida, and a Business/Marketing student at Florida Atlantic University graduating in December 2026.</p>
         <p>I make short-form content that people actually stop scrolling for. My TikTok Shop videos have earned over 8M combined views, including a 2.5M-view video for affordable sets that drove strong sales, and at the FAU Alumni Association, my content was the top performer out of all the student creators, including a post with 1.8M views.</p>
-        <p>I create across health, fitness, and wellness, fashion, and lifestyle, and I plan and art-direct my own shoots. From concept and filming to editing and captions, I love bringing a brand’s personality to life.</p>
+        <p>I create across health, fitness, and wellness, fashion, and lifestyle, and I run my own handmade shell jewelry brand, Bottishelli, where I plan and art-direct every shoot myself. From concept and filming to editing and captions, I love bringing a brand’s personality to life.</p>
         <ul class="links" style="margin-top:20px"><li><a class="primary" href="#contact">Work with me</a></li><li><a href="#work">See my work</a></li></ul>
       </div>
     </div>
@@ -372,6 +384,7 @@ footer.site .links{ justify-content:center; margin-bottom:16px; }
         <li><b>Pet Wants Minneapolis</b><i>Social Media Content Creator, October 2026 – present</i><p>Created a ready-to-post Instagram library of gift guides, product spotlights, and brand posts for a local natural pet food shop.</p></li>
         <li><b>Above</b><i>Social Media &amp; Content Marketing, October 2026 – present</i><p>Short-form video and event calendars for an app where young adults find and RSVP to faith and community events.</p></li>
         <li><b>FAU Alumni Association</b><i>Digital Marketing Intern, Social Media, April – December 2026</i><p>Top-performing student creator on the account, including a post with 1.8M views. Event promotion, photography, video, and flyers.</p></li>
+        <li><b>Bottishelli Shell Shop</b><i>Founder &amp; Digital Marketing Manager, 2024 – present</i><p>Founded a handmade jewelry brand. I run the website, Instagram, and TikTok, and plan every campaign shoot.</p></li>
         <li><b>TikTok Shop &amp; Affiliate Creator</b><i>Independent Creator, 2024 – present</i><p>Sponsored videos across health, fitness, and wellness, fashion, and lifestyle, with 8M+ combined views, including a 2.5M-view video.</p></li>
       </ul>
     </div>
@@ -388,11 +401,11 @@ footer.site .links{ justify-content:center; margin-bottom:16px; }
   <div class="wrap">
     <div class="card contact">
       <a class="mail" href="mailto:violet@botticelli.llc">violet@botticelli.llc</a>
-      <ul class="links"><li><a class="primary" href="mailto:violet@botticelli.llc">Email me</a></li><li><a href="https://www.tiktok.com/@violetskkye" target="_blank" rel="noopener">TikTok</a></li></ul>
+      <ul class="links"><li><a class="primary" href="mailto:violet@botticelli.llc">Email me</a></li><li><a href="https://www.tiktok.com/@violetskkye" target="_blank" rel="noopener">TikTok</a></li><li><a href="https://www.instagram.com/bottishelli/" target="_blank" rel="noopener">Instagram</a></li></ul>
       <p class="small">Based in Boca Raton, Florida, and happy to work remotely.</p>
     </div>
   </div>
-</div><footer class="site"><ul class="links"><li><a href="https://www.tiktok.com/@violetskkye" target="_blank" rel="noopener">TikTok</a></li><li><a class="primary" href="mailto:violet@botticelli.llc">Email</a></li></ul><p>Made with love by Violet Botticelli ✿ 2026</p></footer>
+</div><footer class="site"><ul class="links"><li><a href="https://www.tiktok.com/@violetskkye" target="_blank" rel="noopener">TikTok</a></li><li><a href="https://www.instagram.com/bottishelli/" target="_blank" rel="noopener">Instagram</a></li><li><a class="primary" href="mailto:violet@botticelli.llc">Email</a></li></ul><p>Made with love by Violet Botticelli ✿ 2026</p></footer>
 <dialog id="lb" aria-label="Enlarged post">
   <img id="lbimg" alt="">
   <div class="bar"><span id="lbcap"></span><button type="button" id="lbclose">Close</button></div>
